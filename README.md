@@ -8,9 +8,20 @@ git clone https://github.com/TakaShinoda/beeenowiki
 yarn
 ```
 
-## Build & Publish
+## Develop
 
+### Build
 ```
 yarn build
+```
+
+or
+
+```
+yarn dev
+```
+
+### Deploy
+```
 yarn deploy
 ```
