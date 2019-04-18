@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 
 import Home from '../pages/Home.vue'
 import From from '../pages/From.vue'
+import taxIncluded from '../pages/taxIncluded.vue'
 
 Vue.use(VueRouter)
 
@@ -17,7 +18,12 @@ const router = new VueRouter({
       name: 'from',
       path: '/from',
       component: From
-    },    
+    },
+    {
+      name: 'tax',
+      path: '/tax',
+      component: taxIncluded
+    }
   ]
 })
 
