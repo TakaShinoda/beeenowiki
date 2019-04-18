@@ -1,3 +1,9 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+    router: {
+      base: '/beeenowiki/'
+    }
+  } : {}
+
 export default {
     dir: {
         layouts: 'src/components/layouts',
@@ -12,5 +18,6 @@ export default {
             // hidは一意の識別子として使用されます。`vmid` は動作しないので使わないでください
             { hid: 'description', name: 'description', content: 'Meta description' }
         ]
-    }
+    },
+    ...routerBase
 }
