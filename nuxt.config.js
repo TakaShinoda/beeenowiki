@@ -1,8 +1,8 @@
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
     router: {
-      base: '/beeenowiki/'
+        base: '/beeenowiki/'
     }
-  } : {}
+} : {}
 
 export default {
     dir: {
@@ -17,6 +17,8 @@ export default {
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             { hid: 'og:title', property: 'og:title', content: 'Beeenowiki' },
             { hid: 'og:image', property: 'og:image', content: 'https://github.com/TakaShinoda/beeenowiki/raw/master/src/img/beeno1.jpg' },
+            { hid: 'og:image:width', property: 'og:image:width', content: '1029' },
+            { hid: 'og:image:height', property: 'og:image:height', content: '1239' },
             // hidは一意の識別子として使用されます。`vmid` は動作しないので使わないでください
             { hid: 'description', name: 'description', content: 'Beeeno information' },
         ]
