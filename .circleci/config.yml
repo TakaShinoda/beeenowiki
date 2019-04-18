@@ -20,6 +20,8 @@ jobs:
       - run:
           name: Build
           command: yarn run build
+      - run: git config user.email "korosuke613+circleci@users.noreply.github.com"
+      - run: git config user.name "korosuke613+circleci"
       - run:
           name: Deploy
           command: yarn deploy:local
