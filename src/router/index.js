@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import Home from '../pages/Home.vue'
-import From from '../pages/From.vue'
-import taxIncluded from '../pages/taxIncluded.vue'
+import Home from '../components/pages/Home.vue'
+import From from '../components/pages/From.vue'
+import taxIncluded from '../components/pages/taxIncluded.vue'
 
 Vue.use(VueRouter)
 
