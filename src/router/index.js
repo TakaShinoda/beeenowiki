@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import Home from '../components/pages/Home.vue'
 import From from '../components/pages/From.vue'
 import taxIncluded from '../components/pages/taxIncluded.vue'
+import nasBeeenoInfo from '../components/pages/NasBeeenoInfo.vue'
 
 Vue.use(VueRouter)
 
@@ -23,6 +24,11 @@ const router = new VueRouter({
       name: 'tax',
       path: '/tax',
       component: taxIncluded
+    },
+    {
+      name: 'nasBeeenoInfo',
+      path: '/nasBeeenoInfo',
+      component: nasBeeenoInfo
     }
   ]
 })
