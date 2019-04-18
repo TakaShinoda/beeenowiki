@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p><div>Beenoは福岡県出身です</div></p>
+    <p><div>Beeenoは修羅の国出身です</div></p>
   </div>
 </template>
 
