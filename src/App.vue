@@ -11,7 +11,7 @@
 </template>
 
 <script>
-    import Banner from './molcules/Banner.vue'
+    import Banner from './components/molcules/Banner.vue'
     export default {
         components:{
             Banner
