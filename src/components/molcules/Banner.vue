@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Beeenowiki</h1>
+    <router-link to="/"><h1>Beeenowiki</h1></router-link>
   </div>
 </template>
 
