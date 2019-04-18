@@ -1,13 +1,20 @@
 <template>
     <div>
-        <h1>Beeenowiki</h1>
+        <Banner />
         <p>
             <img src="./img/beeno1.jpg" alt="ビーノのイラスト" title="ナスビーノ" width="300">
         </p>
         <router-view></router-view>
+
+        <li></li>
     </div>
 </template>
 
 <script>
-    export default {}
+    import Banner from './molcules/Banner.vue'
+    export default {
+        components:{
+            Banner
+        }
+    }
 </script>
