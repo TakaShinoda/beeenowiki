@@ -13,13 +13,19 @@
 
 <script>
 export default {
+  layout: "default",
   data() {
     return { price: 100, tax: 8 };
   },
   computed: {
     taxIncluded: function() {
-      return this.price * (1+ this.tax / 100);
+      return this.price * (1 + this.tax / 100);
     }
+  },
+  head() {
+    return {
+      title: "tax"
+    };
   }
 };
 </script>

@@ -2,13 +2,13 @@
     <div>
         <Banner />
         <NasBeeeno />
-        <router-view></router-view>
+        <nuxt/>
     </div>
 </template>
 
 <script>
-    import Banner from './components/molcules/Banner.vue'
-    import NasBeeeno from './components/atoms/NasBeeeno.vue'
+    import Banner from '../molcules/Banner.vue'
+    import NasBeeeno from '../atoms/NasBeeeno.vue'
     export default {
         components:{
             Banner,
