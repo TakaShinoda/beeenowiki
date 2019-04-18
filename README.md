@@ -1,5 +1,5 @@
 # beeenowiki
-
+[![CircleCI](https://circleci.com/gh/TakaShinoda/beeenowiki/tree/master.svg?style=svg)](https://circleci.com/gh/TakaShinoda/beeenowiki/tree/master)
 
 ## Get Start
 
