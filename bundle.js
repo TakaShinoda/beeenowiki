@@ -139,7 +139,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _com
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n//\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({});\n\n\n//# sourceURL=webpack:///./src/components/atoms/NasBeeeno.vue?./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({});\n\n\n//# sourceURL=webpack:///./src/components/atoms/NasBeeeno.vue?./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -179,6 +179,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n\n/* 
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/index.js?!./src/components/pages/NasBeeenoInfo.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib??vue-loader-options!./src/components/pages/NasBeeenoInfo.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({});\n\n\n//# sourceURL=webpack:///./src/components/pages/NasBeeenoInfo.vue?./node_modules/vue-loader/lib??vue-loader-options");
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/index.js?!./src/components/pages/taxIncluded.vue?vue&type=script&lang=js&":
 /*!*************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib??vue-loader-options!./src/components/pages/taxIncluded.vue?vue&type=script&lang=js& ***!
@@ -211,7 +223,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _vm._m(0)\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"div\", [\n      _c(\"p\", [\n        _c(\"img\", {\n          attrs: {\n            src: __webpack_require__(/*! ../../img/beeno1.jpg */ \"./src/img/beeno1.jpg\"),\n            alt: \"ビーノのイラスト\",\n            title: \"ナスビーノ\",\n            width: \"300\"\n          }\n        })\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./src/components/atoms/NasBeeeno.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", [\n    _c(\n      \"p\",\n      [\n        _c(\"router-link\", { attrs: { to: \"/nasBeeenoInfo\" } }, [\n          _c(\"img\", {\n            attrs: {\n              src: __webpack_require__(/*! ../../img/beeno1.jpg */ \"./src/img/beeno1.jpg\"),\n              alt: \"ビーノのイラスト\",\n              title: \"ナスビーノ\",\n              width: \"300\"\n            }\n          })\n        ])\n      ],\n      1\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./src/components/atoms/NasBeeeno.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -248,6 +260,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", [_vm._v(\"\\n  ここはBeeenoの情報をまとめるwikiです。\\n\")])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./src/components/pages/Home.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/pages/NasBeeenoInfo.vue?vue&type=template&id=7f1248a7&":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/pages/NasBeeenoInfo.vue?vue&type=template&id=7f1248a7& ***!
+  \*************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _vm._m(0)\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"div\", [\n      _c(\"p\", [_vm._v(\"ナスビーノの画像。おもしろい。作者はFuji\")])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./src/components/pages/NasBeeenoInfo.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -490,6 +514,42 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 
 /***/ }),
 
+/***/ "./src/components/pages/NasBeeenoInfo.vue":
+/*!************************************************!*\
+  !*** ./src/components/pages/NasBeeenoInfo.vue ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _NasBeeenoInfo_vue_vue_type_template_id_7f1248a7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NasBeeenoInfo.vue?vue&type=template&id=7f1248a7& */ \"./src/components/pages/NasBeeenoInfo.vue?vue&type=template&id=7f1248a7&\");\n/* harmony import */ var _NasBeeenoInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NasBeeenoInfo.vue?vue&type=script&lang=js& */ \"./src/components/pages/NasBeeenoInfo.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  _NasBeeenoInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _NasBeeenoInfo_vue_vue_type_template_id_7f1248a7___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _NasBeeenoInfo_vue_vue_type_template_id_7f1248a7___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"src/components/pages/NasBeeenoInfo.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=webpack:///./src/components/pages/NasBeeenoInfo.vue?");
+
+/***/ }),
+
+/***/ "./src/components/pages/NasBeeenoInfo.vue?vue&type=script&lang=js&":
+/*!*************************************************************************!*\
+  !*** ./src/components/pages/NasBeeenoInfo.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_index_js_vue_loader_options_NasBeeenoInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib??vue-loader-options!./NasBeeenoInfo.vue?vue&type=script&lang=js& */ \"./node_modules/vue-loader/lib/index.js?!./src/components/pages/NasBeeenoInfo.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__[\"default\"] = (_node_modules_vue_loader_lib_index_js_vue_loader_options_NasBeeenoInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[\"default\"]); \n\n//# sourceURL=webpack:///./src/components/pages/NasBeeenoInfo.vue?");
+
+/***/ }),
+
+/***/ "./src/components/pages/NasBeeenoInfo.vue?vue&type=template&id=7f1248a7&":
+/*!*******************************************************************************!*\
+  !*** ./src/components/pages/NasBeeenoInfo.vue?vue&type=template&id=7f1248a7& ***!
+  \*******************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NasBeeenoInfo_vue_vue_type_template_id_7f1248a7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./NasBeeenoInfo.vue?vue&type=template&id=7f1248a7& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/pages/NasBeeenoInfo.vue?vue&type=template&id=7f1248a7&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NasBeeenoInfo_vue_vue_type_template_id_7f1248a7___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NasBeeenoInfo_vue_vue_type_template_id_7f1248a7___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=webpack:///./src/components/pages/NasBeeenoInfo.vue?");
+
+/***/ }),
+
 /***/ "./src/components/pages/taxIncluded.vue":
 /*!**********************************************!*\
   !*** ./src/components/pages/taxIncluded.vue ***!
@@ -557,7 +617,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue_
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm.js\");\n/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ \"./node_modules/vue-router/dist/vue-router.esm.js\");\n/* harmony import */ var _components_pages_Home_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/pages/Home.vue */ \"./src/components/pages/Home.vue\");\n/* harmony import */ var _components_pages_From_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/pages/From.vue */ \"./src/components/pages/From.vue\");\n/* harmony import */ var _components_pages_taxIncluded_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/pages/taxIncluded.vue */ \"./src/components/pages/taxIncluded.vue\");\n\n\n\n\n\n\n\nvue__WEBPACK_IMPORTED_MODULE_0__[\"default\"].use(vue_router__WEBPACK_IMPORTED_MODULE_1__[\"default\"])\n\nconst router = new vue_router__WEBPACK_IMPORTED_MODULE_1__[\"default\"]({\n  routes: [\n    {\n      name: 'home',\n      path: '/',\n      component: _components_pages_Home_vue__WEBPACK_IMPORTED_MODULE_2__[\"default\"]\n    },\n    {\n      name: 'from',\n      path: '/from',\n      component: _components_pages_From_vue__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n    },\n    {\n      name: 'tax',\n      path: '/tax',\n      component: _components_pages_taxIncluded_vue__WEBPACK_IMPORTED_MODULE_4__[\"default\"]\n    }\n  ]\n})\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (router);\n\n\n//# sourceURL=webpack:///./src/router/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm.js\");\n/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ \"./node_modules/vue-router/dist/vue-router.esm.js\");\n/* harmony import */ var _components_pages_Home_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/pages/Home.vue */ \"./src/components/pages/Home.vue\");\n/* harmony import */ var _components_pages_From_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/pages/From.vue */ \"./src/components/pages/From.vue\");\n/* harmony import */ var _components_pages_taxIncluded_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/pages/taxIncluded.vue */ \"./src/components/pages/taxIncluded.vue\");\n/* harmony import */ var _components_pages_NasBeeenoInfo_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/pages/NasBeeenoInfo.vue */ \"./src/components/pages/NasBeeenoInfo.vue\");\n\n\n\n\n\n\n\n\nvue__WEBPACK_IMPORTED_MODULE_0__[\"default\"].use(vue_router__WEBPACK_IMPORTED_MODULE_1__[\"default\"])\n\nconst router = new vue_router__WEBPACK_IMPORTED_MODULE_1__[\"default\"]({\n  routes: [\n    {\n      name: 'home',\n      path: '/',\n      component: _components_pages_Home_vue__WEBPACK_IMPORTED_MODULE_2__[\"default\"]\n    },\n    {\n      name: 'from',\n      path: '/from',\n      component: _components_pages_From_vue__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n    },\n    {\n      name: 'tax',\n      path: '/tax',\n      component: _components_pages_taxIncluded_vue__WEBPACK_IMPORTED_MODULE_4__[\"default\"]\n    },\n    {\n      name: 'nasBeeenoInfo',\n      path: '/nasBeeenoInfo',\n      component: _components_pages_NasBeeenoInfo_vue__WEBPACK_IMPORTED_MODULE_5__[\"default\"]\n    }\n  ]\n})\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (router);\n\n\n//# sourceURL=webpack:///./src/router/index.js?");
 
 /***/ })
 
