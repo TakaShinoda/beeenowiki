@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <p>ナスビーノの画像。おもしろい。作者はFuji</p>
-  </div>
+  <div>ここはBeeenoの情報をまとめるwikiです。</div>
 </template>
 
 <script>
@@ -9,7 +7,8 @@ export default {
   layout: "default",
   head() {
     return {
-      title: "NasBeeeno"
+      title: "Beeenowiki",
+      titleTemplate: ""
     };
   }
 };
