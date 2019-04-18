@@ -3,13 +3,14 @@
     "description": "beeenowiki",
     "main": "index.js",
     "scripts": {
-        "build": "webpack",
-        "dev": "webpack-dev-server",
+        "build": "nuxt build --spa",
+        "dev": "nuxt --spa",
         "deploy": "gh-pages -d dist -r https://github.com/TakaShinoda/beeenowiki",
         "deploy:local": "gh-pages -d dist"
     },
     "devDependencies": {
         "gh-pages": "^2.0.1",
+        "nuxt": "^2.6.2",
         "url-loader": "^1.1.2",
         "vue-loader": "^15.7.0",
         "vue-router": "^3.0.6",
