@@ -155,6 +155,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n\
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/index.js?!./src/pages/taxIncluded.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib??vue-loader-options!./src/pages/taxIncluded.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  data() {\n    return { price: 100, tax: 8 };\n  },\n  computed: {\n    taxIncluded: function() {\n      return this.price * (1+ this.tax / 100);\n    }\n  }\n});\n\n\n//# sourceURL=webpack:///./src/pages/taxIncluded.vue?./node_modules/vue-loader/lib??vue-loader-options");
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/App.vue?vue&type=template&id=7ba5bd90&":
 /*!**********************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=7ba5bd90& ***!
@@ -188,6 +200,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"div\",\n    [\n      _c(\"p\"),\n      _c(\"div\", [_vm._v(\"ここはBeeenoの情報をまとめるwikiです。\")]),\n      _c(\"p\"),\n      _vm._v(\" \"),\n      _c(\"router-link\", { attrs: { to: \"/about\" } }, [\n        _vm._v(\"Go to About page.\")\n      ])\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./src/pages/Home.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/pages/taxIncluded.vue?vue&type=template&id=a903919a&":
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/pages/taxIncluded.vue?vue&type=template&id=a903919a& ***!
+  \************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", [\n    _c(\"div\", [\n      _c(\"input\", {\n        directives: [\n          {\n            name: \"model\",\n            rawName: \"v-model.number\",\n            value: _vm.price,\n            expression: \"price\",\n            modifiers: { number: true }\n          }\n        ],\n        attrs: { type: \"number\" },\n        domProps: { value: _vm.price },\n        on: {\n          input: function($event) {\n            if ($event.target.composing) {\n              return\n            }\n            _vm.price = _vm._n($event.target.value)\n          },\n          blur: function($event) {\n            return _vm.$forceUpdate()\n          }\n        }\n      }),\n      _vm._v(\"円\\n    \"),\n      _c(\"p\", [_vm._v(\"消費税込みの金額 \" + _vm._s(_vm.taxIncluded) + \" 円\")])\n    ]),\n    _vm._v(\" \"),\n    _c(\"div\", [\n      _c(\"input\", {\n        directives: [\n          {\n            name: \"model\",\n            rawName: \"v-model.number\",\n            value: _vm.tax,\n            expression: \"tax\",\n            modifiers: { number: true }\n          }\n        ],\n        attrs: { type: \"number\" },\n        domProps: { value: _vm.tax },\n        on: {\n          input: function($event) {\n            if ($event.target.composing) {\n              return\n            }\n            _vm.tax = _vm._n($event.target.value)\n          },\n          blur: function($event) {\n            return _vm.$forceUpdate()\n          }\n        }\n      }),\n      _vm._v(\"\\n    %\\n  \")\n    ])\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./src/pages/taxIncluded.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -369,6 +393,42 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 
 /***/ }),
 
+/***/ "./src/pages/taxIncluded.vue":
+/*!***********************************!*\
+  !*** ./src/pages/taxIncluded.vue ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _taxIncluded_vue_vue_type_template_id_a903919a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./taxIncluded.vue?vue&type=template&id=a903919a& */ \"./src/pages/taxIncluded.vue?vue&type=template&id=a903919a&\");\n/* harmony import */ var _taxIncluded_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./taxIncluded.vue?vue&type=script&lang=js& */ \"./src/pages/taxIncluded.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  _taxIncluded_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _taxIncluded_vue_vue_type_template_id_a903919a___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _taxIncluded_vue_vue_type_template_id_a903919a___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"src/pages/taxIncluded.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=webpack:///./src/pages/taxIncluded.vue?");
+
+/***/ }),
+
+/***/ "./src/pages/taxIncluded.vue?vue&type=script&lang=js&":
+/*!************************************************************!*\
+  !*** ./src/pages/taxIncluded.vue?vue&type=script&lang=js& ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_index_js_vue_loader_options_taxIncluded_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/vue-loader/lib??vue-loader-options!./taxIncluded.vue?vue&type=script&lang=js& */ \"./node_modules/vue-loader/lib/index.js?!./src/pages/taxIncluded.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__[\"default\"] = (_node_modules_vue_loader_lib_index_js_vue_loader_options_taxIncluded_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[\"default\"]); \n\n//# sourceURL=webpack:///./src/pages/taxIncluded.vue?");
+
+/***/ }),
+
+/***/ "./src/pages/taxIncluded.vue?vue&type=template&id=a903919a&":
+/*!******************************************************************!*\
+  !*** ./src/pages/taxIncluded.vue?vue&type=template&id=a903919a& ***!
+  \******************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_taxIncluded_vue_vue_type_template_id_a903919a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib??vue-loader-options!./taxIncluded.vue?vue&type=template&id=a903919a& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/pages/taxIncluded.vue?vue&type=template&id=a903919a&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_taxIncluded_vue_vue_type_template_id_a903919a___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_taxIncluded_vue_vue_type_template_id_a903919a___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=webpack:///./src/pages/taxIncluded.vue?");
+
+/***/ }),
+
 /***/ "./src/router/index.js":
 /*!*****************************!*\
   !*** ./src/router/index.js ***!
@@ -377,7 +437,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm.js\");\n/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ \"./node_modules/vue-router/dist/vue-router.esm.js\");\n/* harmony import */ var _pages_Home_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pages/Home.vue */ \"./src/pages/Home.vue\");\n/* harmony import */ var _pages_From_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../pages/From.vue */ \"./src/pages/From.vue\");\n\n\n\n\n\n\nvue__WEBPACK_IMPORTED_MODULE_0__[\"default\"].use(vue_router__WEBPACK_IMPORTED_MODULE_1__[\"default\"])\n\nconst router = new vue_router__WEBPACK_IMPORTED_MODULE_1__[\"default\"]({\n  routes: [\n    {\n      name: 'home',\n      path: '/',\n      component: _pages_Home_vue__WEBPACK_IMPORTED_MODULE_2__[\"default\"]\n    },\n    {\n      name: 'from',\n      path: '/from',\n      component: _pages_From_vue__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n    },    \n  ]\n})\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (router);\n\n\n//# sourceURL=webpack:///./src/router/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm.js\");\n/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ \"./node_modules/vue-router/dist/vue-router.esm.js\");\n/* harmony import */ var _pages_Home_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pages/Home.vue */ \"./src/pages/Home.vue\");\n/* harmony import */ var _pages_From_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../pages/From.vue */ \"./src/pages/From.vue\");\n/* harmony import */ var _pages_taxIncluded_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../pages/taxIncluded.vue */ \"./src/pages/taxIncluded.vue\");\n\n\n\n\n\n\n\nvue__WEBPACK_IMPORTED_MODULE_0__[\"default\"].use(vue_router__WEBPACK_IMPORTED_MODULE_1__[\"default\"])\n\nconst router = new vue_router__WEBPACK_IMPORTED_MODULE_1__[\"default\"]({\n  routes: [\n    {\n      name: 'home',\n      path: '/',\n      component: _pages_Home_vue__WEBPACK_IMPORTED_MODULE_2__[\"default\"]\n    },\n    {\n      name: 'from',\n      path: '/from',\n      component: _pages_From_vue__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n    },\n    {\n      name: 'tax',\n      path: '/tax',\n      component: _pages_taxIncluded_vue__WEBPACK_IMPORTED_MODULE_4__[\"default\"]\n    }\n  ]\n})\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (router);\n\n\n//# sourceURL=webpack:///./src/router/index.js?");
 
 /***/ })
 
