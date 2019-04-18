@@ -4,6 +4,7 @@
     "main": "index.js",
     "scripts": {
         "build": "webpack",
+        "dev": "webpack-dev-server",
         "deploy": "gh-pages -d dist -r https://github.com/TakaShinoda/beeenowiki",
         "deploy:local": "gh-pages -d dist"
     },
@@ -14,7 +15,8 @@
         "vue-router": "^3.0.6",
         "vue-template-compiler": "^2.6.10",
         "webpack": "^4.30.0",
-        "webpack-cli": "^3.3.0"
+        "webpack-cli": "^3.3.0",
+        "webpack-dev-server": "^3.3.1"
     },
     "dependencies": {
         "vue": "^2.6.10"
