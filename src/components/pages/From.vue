@@ -2,7 +2,7 @@
   <div>
     <label>
       <input type = "checkbox" v-model="myCheck">
-      Beeenoは修羅の国出身です{{myCheck}}
+      Beeenoは修羅の国出身ですか？{{myCheck}}
     </label>
   </div>
 </template>
