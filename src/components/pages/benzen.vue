@@ -12,7 +12,7 @@
 export default {
   layout: "default",
   data() {
-    return { overtime: 100};
+    return { overtime: 10};
   },
   computed: {
     benzenIncluded: function() {
