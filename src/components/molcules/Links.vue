@@ -8,6 +8,9 @@
       <li>
         <nuxt-link to="/tax">税金計算</nuxt-link>
       </li>
+      <li>
+        <nuxt-link to="/benzen">ベンゼン環</nuxt-link>
+      </li>
     </ul>
   </div>
 </template>
