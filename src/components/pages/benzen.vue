@@ -1,6 +1,7 @@
 <template>
   <div>
     <div>
+        <p>あなたの残業時間は？</p>
       <input v-model.number="overtime" type="number">時間
       <p>ベンゼン環 {{benzenIncluded}} 個獲得です！</p>
     </div>
