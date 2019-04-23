@@ -10,6 +10,7 @@
         "deploy:local": "gh-pages -d dist -t"
     },
     "devDependencies": {
+        "@nuxtjs/pwa": "^3.0.0-beta.14",
         "gh-pages": "^2.0.1",
         "nuxt": "^2.6.2"
     },

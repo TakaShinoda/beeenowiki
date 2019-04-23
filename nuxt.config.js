@@ -5,6 +5,23 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
 } : {}
 
 export default {
+    modules: [
+        '@nuxtjs/pwa'
+    ],
+    manifest: {
+        name: 'Beeenowiki',
+        lang: 'ja',
+        short_name: 'BeW',
+        title: 'Beeenowiki',
+        'og:title': 'Beeenowiki',
+        description: 'BeeenoのWikiです。',
+        'og:description': 'BeeenoのWikiです。',
+        theme_color: '#ffffff',
+        background_color: '#ffffff'
+    },
+    workbox: {
+        dev: true, //開発環境でもPWA
+    },
     dir: {
         layouts: 'src/components/layouts',
         pages: 'src/components/pages',
