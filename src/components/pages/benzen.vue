@@ -37,11 +37,13 @@ export default {
     },
     isKaroshi: function() {
       let tmp = "";
-      if (this.overtime >= 100) {
+      if (this.overtime >= 150) {
+        tmp = "カワウソになりました。";
+      } else if (this.overtime >= 100) {
         tmp = "過労死しました。";
       } else if (this.overtime >= 80) {
         tmp = "過労死ラインを超えました。";
-      }
+      } 
 
       return tmp;
     }
