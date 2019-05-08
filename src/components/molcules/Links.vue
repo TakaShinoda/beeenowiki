@@ -11,6 +11,9 @@
       <li>
         <nuxt-link to="/benzen">ベンゼン環</nuxt-link>
       </li>
+      <li>
+        <nuxt-link to="/meigen">迷言集</nuxt-link>
+      </li>
     </ul>
   </div>
 </template>
