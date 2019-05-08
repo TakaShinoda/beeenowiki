@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <p>Beeeno迷言検索</p>
+      <p>Beeeno迷言 (一部抜粋)</p>
         <input v-model="findWord" placeholder="検索ワード入力">
 		<ul>
 			<li v-for="item in findItems" v-bind:key='item.id'>{{item}}</li>
