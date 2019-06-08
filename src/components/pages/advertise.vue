@@ -2,7 +2,7 @@
   <div>
     <div>
       <p>お知らせ</p>
-      <p v-html="content1">
+      <p v-html="content1"></p>
     </div>
   </div>
 </template>
