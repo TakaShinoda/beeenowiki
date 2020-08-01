@@ -7,7 +7,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import Banner from "../molcules/Banner.vue";
 import NasBeeeno from "../atoms/NasBeeeno.vue";
 import Links from "../molcules/Links.vue";

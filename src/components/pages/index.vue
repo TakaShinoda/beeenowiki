@@ -2,7 +2,7 @@
   <div>ここはBeeenoの情報をまとめるwikiです。</div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   layout: "default",
   head() {
