@@ -11,8 +11,11 @@
     },
     "devDependencies": {
         "@nuxtjs/pwa": "^3.0.0-beta.14",
+        "@types/node": "^14.0.27",
         "gh-pages": "^2.0.1",
-        "nuxt": "^2.6.2"
+        "nuxt": "^2.6.2",
+        "ts-loader": "3.5.0",
+        "typescript": "^3.9.7"
     },
     "dependencies": {
         "kind-of": "^6.0.3",
