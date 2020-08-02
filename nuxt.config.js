@@ -6,7 +6,8 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
 
 export default {
     modules: [
-        '@nuxtjs/pwa'
+        '@nuxtjs/pwa',
+        '~/modules/typescript.js',
     ],
     manifest: {
         name: 'Beeenowiki',
